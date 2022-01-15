@@ -1,0 +1,5 @@
+<configuration xmlns="http://www.jboss.org/jbossws-tools">
+    <mappers>
+        <mapper></mapper>
+    </mappers>
+</configuration>
