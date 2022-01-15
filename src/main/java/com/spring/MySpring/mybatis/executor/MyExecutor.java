@@ -71,6 +71,7 @@ public class MyExecutor implements Executor{
     }
 
     private void parameterSize(PreparedStatement preparedStatement,Object parameter) throws SQLException{
+        System.out.println(1);
         if(parameter instanceof Integer){
             //int类型
             preparedStatement.setInt(1,(Integer) parameter);
